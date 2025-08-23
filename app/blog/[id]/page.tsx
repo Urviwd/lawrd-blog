@@ -578,12 +578,6 @@ export default function BlogPage() {
           >
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Share This Article</h3>
             <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <button className="flex-1 flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300">
-                  <Share2 className="h-5 w-5" />
-                  <span>Share on Social Media</span>
-                </button>
-              </div>
               
               <div className="grid grid-cols-2 gap-3">
                 <button className="flex items-center justify-center space-x-2 bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors duration-300">
@@ -595,6 +589,13 @@ export default function BlogPage() {
                   <span>Bookmark</span>
                 </button>
               </div>
+              <div className="flex items-center space-x-3">
+                <button className="flex-1 flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                  <Share2 className="h-5 w-5" />
+                  <span>Share on Social Media</span>
+                </button>
+              </div>
+              
             </div>
           </div>
 
