@@ -518,7 +518,7 @@ export default function BlogPage() {
                   </a>
                 </div>
               </div>
-
+                  {/* add social media icons here */}
               {/* Author Card */}
               <div className="bg-white rounded-xl shadow-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">About the Author</h3>
